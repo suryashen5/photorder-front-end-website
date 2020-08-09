@@ -1,0 +1,47 @@
+#vision-container {
+  background-image: url("../assets/vision/vision-background-edited.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+#vision-container h1 {
+  font-size: 4vw;
+  color: #e1c5a0;
+  text-shadow: -2px 2px #000000;
+}
+
+#vision-container p {
+  margin-top: 12%;
+  font-size: 3vw;
+  text-shadow: -2px 2px #000000;
+  color: white;
+  width: 65%;
+  margin-bottom: 9%;
+}
+
+.vision-content {
+  padding: 5% 0% 5% 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  #vision-container {
+    height: auto;
+  }
+
+  #vision-container h1 {
+    font-size: 3em;
+  }
+
+  #vision-container p {
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .vision-content{
+    padding: 50% 0% 45% 5%;
+  }
+}

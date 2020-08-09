@@ -1,0 +1,97 @@
+@media only screen and (max-width: 800px) {
+  #home-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.25em;
+  }
+
+  .navbar li .order-button {
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #b48e5b;
+    color: #e5e5e5;
+  }
+
+  .navbar ul span li{
+    padding-right: 0;
+  }
+
+  .home-content {
+    height: 90%;
+    margin: 50% 0% 80% 2%;
+  }
+
+  .home-title {
+    font-size: 3em;
+    color: #e1c5a0;
+  }
+
+  .home-text {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #e5e5e5;
+  }
+
+  #about-container {
+    width: 100%;
+    padding-top: 5%;
+    height: auto;
+  }
+
+  .about-content {
+    height: auto;
+    margin: 10% 0% 15% 5%;
+  }
+
+  .head-title {
+    font-size: 3em;
+    text-shadow: -2px 1px #000000;
+  }
+
+  .head-title > span {
+    color: #e5e5e5;
+  }
+
+  .about-text {
+    font-size: 1em;
+    color: #e5e5e5;
+    text-shadow: -1px 0px #000000;
+    height: auto;
+    margin-top: 15px;
+    padding: 0% 30% 0% 0%;
+  }
+
+  .vision-mission-flex-container {
+    display: flex;
+    justify-content: left;
+    margin: 0% 0% 20% 5%;
+  }
+
+  .vision-mission-box {
+    width: 100%;
+    height: auto;
+    margin: 0% 10% 0% 0%;
+  }
+
+  .vision-mission-box > a > h1 {
+    font-size: 3em;
+  }
+
+  .vision-mission-box > a {
+    font-size: 0.7em;
+    text-shadow: -1px 2px #000000;
+    color: #e1c5a0;
+  }
+
+  .vision-mission-box > a:hover {
+    cursor: pointer;
+    color: #b48e5b;
+  }
+}

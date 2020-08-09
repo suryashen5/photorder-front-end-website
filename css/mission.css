@@ -1,0 +1,51 @@
+#mission-container {
+  background-image: url("../assets/mission/mission-background-edited.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  /* padding: 5% 0% 5% 5%; */
+}
+
+#mission-container h1 {
+  font-size: 4vw;
+  color: #e1c5a0;
+  text-shadow: -5px 2px #000000;
+}
+
+#mission-container ol {
+  margin: 10% 0% 5% 3%;
+  font-size: 2vw;
+  text-shadow: -2px 2px #000000;
+  color: white;
+}
+
+#mission-container ol .first {
+  margin-bottom: 9%;
+}
+
+.mission-content {
+  padding: 5% 0% 5% 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  #mission-container {
+    height: auto;
+  }
+
+  #mission-container h1 {
+    font-size: 3em;
+    text-shadow: -2px 2px #000000;
+  }
+
+  #mission-container ol {
+    font-size: 1.5em;
+    padding: 0 5%;
+  }
+
+  .mission-content {
+    padding: 35% 0% 35% 5%;
+  }
+}

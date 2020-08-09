@@ -1,0 +1,80 @@
+#our-work-container {
+  background-image: url("../assets/our-work/our-work-background-edited.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 800px;
+}
+
+.our-work-title {
+  font-size: 4vw;
+  text-shadow: -5px 2px #000000;
+  color: #e5e5e5;
+  padding: 5% 0% 0% 5%;
+}
+
+.our-work-title > span {
+  color: #e1c5a0;
+}
+
+.our-work-content {
+  font-size: 2vw;
+  color: #e5e5e5;
+  text-shadow: -1px 2px #000000;
+  height: auto;
+  margin-top: 20px;
+  padding: 0% 0% 0% 5%;
+}
+
+.our-work-content > span {
+  color: #e1c5a0;
+}
+
+.our-work-content > a {
+  text-decoration: none;
+  color: #e1c5a0;
+}
+
+.our-work-content > a:hover {
+  cursor: pointer;
+  color: #b48e5b;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0% 5% 0% 5%;
+}
+
+.photos > .photos-content {
+  width: 30%;
+  padding: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #our-work-container {
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .our-work-title {
+    font-size: 3em;
+    text-shadow: -2px 2px #000000;
+  }
+
+  .our-work-content {
+    font-size: 1.5em;
+  }
+
+  .photos > .photos-content {
+    width: 100%;
+    margin: 3% 0;
+  }
+}
