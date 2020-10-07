@@ -4,27 +4,26 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   width: 100%;
 }
 
 #vision-container h1 {
   font-size: 4vw;
   color: #e1c5a0;
-  text-shadow: -2px 2px #000000;
+  text-shadow: -3px 0px #000000;
 }
 
 #vision-container p {
-  margin-top: 12%;
+  margin-top: 15%;
   font-size: 3vw;
   text-shadow: -2px 2px #000000;
   color: white;
   width: 65%;
-  margin-bottom: 9%;
+  margin-bottom: 25%;
 }
 
 .vision-content {
-  padding: 5% 0% 5% 5%;
+  padding: 5% 0% 0% 5%;
 }
 
 @media only screen and (max-width: 800px) {
