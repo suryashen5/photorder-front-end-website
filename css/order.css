@@ -64,7 +64,7 @@ footer {
   max-width: 600px;
 }
 
-.button input[type="button"] {
+.button input[type="submit"] {
   font-size: 24px;
   padding: 10px 24px;
   display: block;
@@ -75,7 +75,7 @@ footer {
   border-radius: 5px;
 }
 
-.button input[type="button"] :hover {
+.button input[type="submit"] :hover {
   cursor: pointer;
   background: rgb(70, 69, 69);
 }
