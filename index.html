@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/vision.css" />
     <link rel="stylesheet" href="css/mission.css" />
 
-    <script src="js/home.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
 
     <title>PhotOrder</title>
@@ -159,43 +159,34 @@
     <div id="order-container">
       <h1 class="title">Order</h1>
 
-      <div class="form">
-        <div class="text">Nama</div>
-        <div class="input">
-          <input type="text" name="" id="" />
+      <form id="orderForm" onsubmit="onSubmit();">
+        <div class="form">
+          <div class="text">Nama</div>
+          <div class="input">
+            <input type="text" id="orderName" />
+          </div>
+  
+          <div class="text">Email</div>
+          <div class="input">
+            <input type="text" id="orderEmail" />
+          </div>
+  
+          <div class="text">Nomor Telepon</div>
+          <div class="input">
+            <input type="text" id="orderPhone" />
+          </div>
+  
+          <div class="text" id="other">Kebutuhan</div>
+          <div class="input" id="others">
+            <textarea id="orderNeeds" cols="50" rows="10"></textarea>
+          </div>
         </div>
-
-        <div class="text">Email</div>
-        <div class="input">
-          <input type="text" name="" id="" />
+  
+        <div class="button">
+          <input type="submit" value="Submit" />
         </div>
-
-        <div class="text">Nomor Telepon</div>
-        <div class="input">
-          <input type="text" name="" id="" />
-        </div>
-
-        <!-- <div class="text">Kebutuhan</div>
-        <div class="input">
-          <input list="needs" />
-          <datalist id="needs">
-            <option value="Wedding" />
-            <option value="Graduation" />
-            <option value="Event" />
-            <option value="Photoshoot" />
-            <option value="Others" />
-          </datalist>
-        </div> -->
-
-        <div class="text" id="other">Kebutuhan</div>
-        <div class="input" id="others">
-          <textarea name="" id="" cols="50" rows="10"></textarea>
-        </div>
-      </div>
-
-      <div class="button">
-        <input type="button" value="Submit" />
-      </div>
+      </form>
+      
     </div>
     <div id="contactUs-container">
       <h1 class="contactUs-title">Contact <span>Us</span></h1>
